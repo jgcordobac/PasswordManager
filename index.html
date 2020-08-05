@@ -8,8 +8,28 @@
 <body>
     
 
-    <script type="text/javascript">
-            alert('Prueba');
-    </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDM2fDmDaSVR7HbWL12UVsvq96GXzAsJhE",
+    authDomain: "passwordmanager-649a3.firebaseapp.com",
+    databaseURL: "https://passwordmanager-649a3.firebaseio.com",
+    projectId: "passwordmanager-649a3",
+    storageBucket: "passwordmanager-649a3.appspot.com",
+    messagingSenderId: "559444162434",
+    appId: "1:559444162434:web:59f78feb7c6adc0705c19b"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  alert('FireBase Configuración');
+</script>
+
 </body>
 </html>
